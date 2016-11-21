@@ -182,3 +182,8 @@ p.narrow {
 	color: black;
 	font-weight: 500;
 }
+
+ul.blocked li {
+	display: inline-block;
+	width: 230px;
+}

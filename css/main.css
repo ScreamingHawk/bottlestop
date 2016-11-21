@@ -25,6 +25,9 @@ body {
 	display: inline-block;
 	padding-top: 15px;
 }
+.navbar-brand-center .navbar-brand {
+	padding-bottom: 0;
+}
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6, {
@@ -186,4 +189,9 @@ p.narrow {
 ul.blocked li {
 	display: inline-block;
 	width: 230px;
+}
+
+#wrapper > .container,
+#wrapper > .container-fluid {
+	min-height: 80vh;
 }

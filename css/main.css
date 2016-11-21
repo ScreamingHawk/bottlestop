@@ -174,3 +174,11 @@ p.narrow {
 .right {
 	float: right;
 }
+
+.jumbotron h1 {
+	text-align: center;
+}
+.jumbotron p {
+	color: black;
+	font-weight: 500;
+}

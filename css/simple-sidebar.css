@@ -60,7 +60,7 @@
 
 .sidebar-nav {
 	width: 280px;
-	margin: 0 20px;
+	margin: 0 20px 0 -20px;
 	padding: 0 0 0 20px;
 	list-style: none;
 	border: 1px solid black;
@@ -134,4 +134,11 @@
 		position: relative;
 		margin-right: 0;
 	}
+}
+
+/* Nav pills */
+.navbar.navbar-inverse {
+	margin-bottom: 0;
+	border-radius: 0 0 0 20px;
+	padding-right: 176px;
 }

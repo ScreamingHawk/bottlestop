@@ -160,6 +160,10 @@ p.narrow {
 	}
 }
 
+.small-bottom-margin {
+	margin-bottom: 10px;
+}
+
 .bottom-margin {
 	margin-bottom: 30px;
 }
@@ -202,4 +206,9 @@ ul.blocked li {
 #wrapper > .container,
 #wrapper > .container-fluid {
 	min-height: 80vh;
+}
+
+.max-full {
+	max-width: 100%;
+	max-height: 100vh;
 }
